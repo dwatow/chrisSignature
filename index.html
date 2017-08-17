@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+  <style media="screen">
+    body {
+      font-family: 'Nova Mono', monospace;
+    }
+    .date {
+      font-weight: 700;
+    }
+    a, a:hover, a:focus, a:active, a:visited {
+      text-decoration: none;
+    }
+    .aOfHausenn {
+      position: relative;
+    }
+    .aOfHausenn::before {
+      content: '-';
+      position: absolute;
+      bottom: .5rem;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>簽名</h1>
+  <div><span class="date">2017.08.16</span> <a href="http://hausenncamp.com">H<span class="aOfHausenn">A</span>USENN×KERWAY</a></div>
+  <script src="./chrisSignature.js" charset="utf-8"></script>
+</body>
+</html>
