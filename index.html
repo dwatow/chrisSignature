@@ -10,11 +10,15 @@
     body {
       font-family: 'Nova Mono', monospace;
     }
+    h1 small {
+      font-size: 14pt;
+    }
     .date {
       font-weight: 700;
     }
     a, a:hover, a:focus, a:active, a:visited {
       text-decoration: none;
+      line-height: 1rem;
     }
     .aOfHausenn {
       position: relative;
@@ -22,14 +26,17 @@
     .aOfHausenn::before {
       content: '-';
       position: absolute;
-      bottom: .5rem;
+      bottom: .6rem;
       left: 0;
     }
   </style>
 </head>
 <body>
-  <h1>簽名</h1>
+  <h1>簽名<small>或以前做過的網站</small></h1>
+  <div><span class="date">2017.08.20</span> <a href="http://streetobserver.org/">台南路上觀察團</a></div>
   <div><span class="date">2017.08.16</span> <a href="http://hausenncamp.com">H<span class="aOfHausenn">A</span>USENN×KERWAY</a></div>
+  <div><span class="date">2008.08.xx</span> <a href="http://www2.nsysu.edu.tw/TPSTproject/">南藝風華</a></div>
+  <div><span class="date">2000.xx.xx</span> <a href="###">全日本最舒服的聲音~Kiroro中文站</a></div>
   <script src="./chrisSignature.js" charset="utf-8"></script>
 </body>
 </html>
